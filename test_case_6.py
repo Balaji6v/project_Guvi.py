@@ -15,7 +15,7 @@ def test_verify_user_exists(driver):
     admin_username = "Admin"
     admin_password = "admin123"
     base_url = "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"
-    new_user = "peter123"
+    new_user = "thomas123"
 
 
     driver.get(base_url)
