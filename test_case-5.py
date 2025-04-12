@@ -105,7 +105,7 @@ def test_create_and_login_new_user(browser):
 
     try:
         wait.until(EC.visibility_of_element_located((By.XPATH, "//div[contains(@class,'oxd-toast-content') and contains(., 'Successfully Saved')]")))
-        log.info("✅ User created successfully.")
+        log.info(" User created successfully.")
     except:
         browser.save_screenshot("user_creation_failed.png")
         raise Exception("User creation likely failed.")
