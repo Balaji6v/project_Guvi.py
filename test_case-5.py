@@ -14,12 +14,12 @@ log = logging.getLogger(__name__)
 # Admin credentials and employee to assign
 ADMIN_USERNAME = "Admin"
 ADMIN_PASSWORD = "admin123"
-EMPLOYEE_NAME = "Peter Mac Anderson"
+EMPLOYEE_NAME = "Thomas Kutty Benny"
 NEW_PASSWORD = "Test@1234"
 URL = "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"
 
 # Dynamically generate a unique username to avoid conflicts
-NEW_USERNAME = "peter1234"
+NEW_USERNAME = "thomas1234"
 
 
 @pytest.fixture
