@@ -19,7 +19,7 @@ NEW_PASSWORD = "Test@1234"
 URL = "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"
 
 # Dynamically generate a unique username to avoid conflicts
-NEW_USERNAME = "peter123"
+NEW_USERNAME = "peter1234"
 
 
 @pytest.fixture
